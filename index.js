@@ -1,4 +1,4 @@
-// Your code here
+// // Your code here
 const dodger = document.getElementById("dodger");
 
 function moveDodgerLeft() {
@@ -10,7 +10,7 @@ function moveDodgerLeft() {
   }
 }
 
-document.addEventListener("keydown", function (e) {
+document.addEventListener("keydown", function(e) {
   if (e.key === "ArrowLeft") {
     moveDodgerLeft();
   }
@@ -45,7 +45,7 @@ function moveDodgerRight() {
 }
 
 document.addEventListener("keydown", function (e) {
-  if (e.key === "ArrowLeft") {
+  if (e.key === "ArrowRight") {
     moveDodgerRight();
   }
 });
